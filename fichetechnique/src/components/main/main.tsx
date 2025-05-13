@@ -425,7 +425,7 @@ export default function ProductSheetModal() {
                 fontSize: 16
               }}
             >
-              {({ loading }) => loading ? 'Génération PDF...' : 'Télécharger PDF'}
+              {({ loading }) => loading ? <span>Génération PDF...</span> : <span>Télécharger PDF</span>}
             </PDFDownloadLink>
           </div>
         </>
